@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~quill/dist/quill.snow.css';
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mat-chip-option-disabled {
+    background-color:#34c756 !important;
+    // color: white !important;
+    opacity: 1 !important;
+    text-align: center !important;
+  }
+
+  .mat-chip-option-disabled-false{
+    background-color:#e76361 !important;
+    // color: white !important;
+    opacity: 1 !important;
+  }
+ 

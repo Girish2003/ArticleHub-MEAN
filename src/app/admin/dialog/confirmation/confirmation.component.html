@@ -1,0 +1,10 @@
+
+<mat-dialog-content style="background-color: wheat; color: black;">
+    <h2>Are you sure want to {{details.message}}</h2>
+
+</mat-dialog-content>
+<mat-dialog-actions style="background-color: wheat;" align="end">
+    <button mat-raised-button style="background-color: rgba(75, 207, 8, 0.907);" (click)="handleChangeAction()">Yes</button>
+    <button mat-raised-button [color]="themeService.getTheme()" mat-dialog-close> No</button>
+
+</mat-dialog-actions>
